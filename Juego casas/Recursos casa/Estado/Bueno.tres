@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Estado.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+nombre = "Bueno"
+precio = 1500
+recursos = 0.55
+weight = 0.25
+acumulate = 0.25

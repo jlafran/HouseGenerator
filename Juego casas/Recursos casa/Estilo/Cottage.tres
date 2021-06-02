@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Estilo.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+nombre = "Cottage"
+precio = 300
+material_primario = "Madera"
+cantidad_primario = 15
+material_secundario = "Vidrio"
+cantidad_secundario = 4
+complejidad = 2
+weight = 0.6

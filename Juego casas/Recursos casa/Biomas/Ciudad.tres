@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Bioma.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+nombre = "Ciudad"
+precio = 800
+estilo_baja = "Asiatico"
+estilo_media = "Contemporaneo"
+estilo_alta = "Minimalista"

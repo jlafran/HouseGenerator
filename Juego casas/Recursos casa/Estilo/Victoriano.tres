@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Estilo.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+nombre = "Victoriano"
+precio = 1000
+material_primario = "Ladrillo"
+cantidad_primario = 50
+material_secundario = "Vidrio"
+cantidad_secundario = 20
+complejidad = 5
+weight = 0.1

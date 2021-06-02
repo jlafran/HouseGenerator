@@ -1,0 +1,104 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://UI/MenuEstilo/BotonEstilo.tscn" type="PackedScene" id=1]
+
+[node name="Estilos" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -621.0
+margin_bottom = -403.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 332.0
+margin_bottom = 120.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color( 0.878431, 0.870588, 0.85098, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="ColorRect"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 322.0
+margin_bottom = 131.0
+custom_constants/vseparation = 7
+custom_constants/hseparation = 7
+columns = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Estilo" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_right = 79.0
+margin_bottom = 20.0
+text = "Bora Bora"
+
+[node name="Estilo2" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_left = 86.0
+margin_right = 200.0
+margin_bottom = 20.0
+text = "Contemporaneo"
+
+[node name="Estilo3" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_left = 207.0
+margin_right = 294.0
+margin_bottom = 20.0
+text = "Cottage"
+
+[node name="Estilo4" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_top = 27.0
+margin_right = 79.0
+margin_bottom = 47.0
+text = "Log House"
+
+[node name="Estilo5" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_left = 86.0
+margin_top = 27.0
+margin_right = 200.0
+margin_bottom = 47.0
+text = "Mediterraneo"
+
+[node name="Estilo6" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_left = 207.0
+margin_top = 27.0
+margin_right = 294.0
+margin_bottom = 47.0
+text = "Minimalista"
+
+[node name="Estilo7" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_top = 54.0
+margin_right = 79.0
+margin_bottom = 74.0
+text = "Model"
+
+[node name="Estilo8" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_left = 86.0
+margin_top = 54.0
+margin_right = 200.0
+margin_bottom = 74.0
+text = "Pueblo Revival"
+
+[node name="Estilo9" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_left = 207.0
+margin_top = 54.0
+margin_right = 294.0
+margin_bottom = 74.0
+text = "Rancho"
+
+[node name="Estilo10" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_top = 81.0
+margin_right = 79.0
+margin_bottom = 101.0
+text = "Victoriano"
+
+[node name="Estilo11" parent="ColorRect/GridContainer" instance=ExtResource( 1 )]
+margin_left = 86.0
+margin_top = 81.0
+margin_right = 200.0
+margin_bottom = 101.0
+text = "Asiatico"

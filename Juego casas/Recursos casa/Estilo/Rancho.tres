@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Estilo.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+nombre = "Rancho"
+precio = 100
+material_primario = "Madera"
+cantidad_primario = 10
+material_secundario = "Chapa"
+cantidad_secundario = 5
+complejidad = 1
+weight = 1.0

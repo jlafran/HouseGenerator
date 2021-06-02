@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Estilo.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+nombre = "Mediterraneo"
+precio = 700
+material_primario = "Ladrillo"
+cantidad_primario = 45
+material_secundario = "Tejas"
+cantidad_secundario = 25
+complejidad = 5
+weight = 0.1
