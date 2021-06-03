@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Style.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+name = "Mediterranean"
+price = 700
+primary_material = "Brick"
+quantity_primary = 45
+secondary_material = "Roof Tiles"
+quantity_secondary = 25
+complexity = 5
+weight = 0.1

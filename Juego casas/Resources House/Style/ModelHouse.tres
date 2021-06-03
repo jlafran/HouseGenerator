@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Style.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+name = "Model House"
+price = 250
+primary_material = "Wood"
+quantity_primary = 15
+secondary_material = "Iron"
+quantity_secondary = 5
+complexity = 2
+weight = 1.0

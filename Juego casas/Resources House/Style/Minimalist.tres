@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Style.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+name = "Minimalist"
+price = 1000
+primary_material = "Concrete"
+quantity_primary = 40
+secondary_material = "Glass"
+quantity_secondary = 20
+complexity = 5
+weight = 0.1

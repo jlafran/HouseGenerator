@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Style.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+name = "Ranch"
+price = 100
+primary_material = "Wood"
+quantity_primary = 10
+secondary_material = "Metallic Sheet"
+quantity_secondary = 5
+complexity = 1
+weight = 1.0

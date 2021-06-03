@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Style.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+name = "Cottage"
+price = 300
+primary_material = "Wood"
+quantity_primary = 15
+secondary_material = "Stone"
+quantity_secondary = 15
+complexity = 2
+weight = 0.6

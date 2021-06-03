@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resouce Script/Style.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+name = "Contemporary"
+price = 700
+primary_material = "Concrete"
+quantity_primary = 25
+secondary_material = "Glass"
+quantity_secondary = 10
+complexity = 4
+weight = 0.4

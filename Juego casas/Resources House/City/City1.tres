@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://Resouce Script/City.gd" type="Script" id=1]
+[ext_resource path="res://Resources House/Neighborhood/Countryside/HighCountrysideFamily.tres" type="Resource" id=2]
+[ext_resource path="res://Resources House/Neighborhood/Countryside/HighCountrysideUniversity.tres" type="Resource" id=3]
+[ext_resource path="res://Resources House/Neighborhood/Countryside/LowCountrysideFamily.tres" type="Resource" id=4]
+[ext_resource path="res://Resources House/Neighborhood/Countryside/MediumCountrysideUniversity.tres" type="Resource" id=5]
+[ext_resource path="res://Resources House/Neighborhood/Countryside/MediumCountrysideFamily.tres" type="Resource" id=6]
+[ext_resource path="res://Resources House/Neighborhood/Countryside/LowCountrysideUniversity.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 1 )
+name = "Inicio"
+growth = 0.0
+level = 0
+city = [ ExtResource( 2 ), ExtResource( 7 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 4 ), ExtResource( 3 ), null, null, null, null ]
+neighborhood_name = [ "djalsk", "Nudksnadknll", "fdfsvNull", "Nvfxull", "Nczzull", "Nullxcz", null, null, null, null ]
